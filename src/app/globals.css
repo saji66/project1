@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #FDF6EC;
+  --warm-white: #FFFBF5;
+  --caramel: #C8813A;
+  --caramel-dark: #A5641F;
+  --caramel-light: #E8A96A;
+  --brown: #3D2314;
+  --brown-mid: #6B3A20;
+  --dusty-rose: #E8C5B0;
+  --sage: #8BA888;
+  --text-primary: #2C1810;
+  --text-muted: #7A5C4A;
+  --border: #E8D8C8;
+  --shadow: rgba(61, 35, 20, 0.1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+a { text-decoration: none; color: inherit; }
+
+button { cursor: pointer; font-family: 'DM Sans', sans-serif; }
+
+input, textarea, select {
+  font-family: 'DM Sans', sans-serif;
+}
